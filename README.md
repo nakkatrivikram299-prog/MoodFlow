@@ -1,4 +1,4 @@
-# VIKRAM Flow 🎵
+# MoodFlow 🎵
 
 > Type how you feel → AI detects your emotion → Spotify picks the perfect tracks
 
