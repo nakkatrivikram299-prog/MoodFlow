@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "VIKRAM Flow",
+    "slug": "vikram-flow",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "vikramflow",
+    "userInterfaceStyle": "dark",
+    "splash": { "backgroundColor": "#05080f" },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.vikramflow.app"
+    },
+    "android": {
+      "adaptiveIcon": { "backgroundColor": "#05080f" },
+      "package": "com.vikramflow.app",
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "autoVerify": true,
+          "data": [{ "scheme": "vikramflow", "host": "callback" }],
+          "category": ["BROWSABLE", "DEFAULT"]
+        }
+      ]
+    },
+    "plugins": ["expo-router", "expo-secure-store"],
+    "experiments": { "typedRoutes": true }
+  }
+}
